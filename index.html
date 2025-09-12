@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Boxicons CDN -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <!-- ************************* Navbar ************************* -->
+    <header class="header">
+        <a href="#" class="logo">Welcome to My Portfolio</a>
+        <i class="bx bx-menu" id="menu"></i>
+        <nav class="navbar">
+            <a href="#home" class="active" style="--vlr:1">Home</a>
+            <a href="#about" style="--vlr:2">About Me</a>
+            <a href="#education" style="--vlr:3">Education</a>
+            <a href="#contact" style="--vlr:4">Contact Me</a>
+        </nav>
+    </header>
+
+    <!-- ************************* Home Section ************************* -->
+    <section class="home" id="home">
+        <div class="text-content">
+            <h1>I'm Kamali R</h1>
+            <h2>BCA Student</h2>
+            <p>
+                I am eager to explore areas such as ethical hacking, penetration testing, and network security.
+                I’m also learning best practices in cyber defense. My goal is to build the skills necessary
+                to identify risks, safeguard information, and contribute to creating a safer digital world.
+            </p>
+        </div>
+    </section>
+
+    <!-- ************************* About Section ************************* -->
+    <section class="about fade-in" id="about">
+        <h2 class="title">About <span>Me</span></h2>
+        <div class="text-content2 fade-in">
+            <p>
+                I'm Kamali R, currently pursuing a Bachelor of Computer Applications. I'm passionate about
+                cybersecurity and excited to gain experience in ethical hacking, digital forensics, and penetration
+                testing. I aim to contribute meaningfully to the tech world by creating safe digital environments.
+            </p>
+        </div>
+    </section>
+
+    <!-- ************************* Education Section ************************* -->
+    <section class="education" id="education">
+        <h2 class="title">My <span>Education</span></h2>
+        <div class="row">
+            <div class="column">
+                <div class="box">
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2010 - 2024 <i class="bx bxs-calendar"></i></div>
+                            <h3>School Education</h3>
+                            <p>Completed school education with a strong foundation in mathematics and computer science.</p>
+                        </div>
+                    </div>
+                    <div class="education-content">
+                        <div class="content">
+                            <div class="year">2024 - 2027 <i class="bx bxs-calendar"></i></div>
+                            <h3>B.C.A - Ponnusamy Nadar College of Arts & Science</h3>
+                            <p>Currently pursuing Bachelor's in Computer Applications with a focus on cybersecurity and ethical hacking.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ************************* Contact Section ************************* -->
+    <section class="contact" id="contact">
+        <h2 class="title">Contact <span>Me</span></h2>
+        <form action="#" method="POST">
+            <div class="input-box">
+                <input type="text" name="name" required placeholder="Full Name" />
+                <input type="email" name="email" required placeholder="Email" />
+            </div>
+            <div class="input-box">
+                <input type="tel" name="phone" required placeholder="Mobile Number" />
+                <input type="text" name="subject" required placeholder="Subject" />
+            </div>
+            <textarea name="message" cols="30" rows="10" placeholder="Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn" />
+        </form>
+    </section>
+
+    <!-- ************************* Footer ************************* -->
+    <footer>
+        <div class="text">
+            <p>2025 Kamali R | B.C.A Student</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
